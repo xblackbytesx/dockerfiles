@@ -6,7 +6,7 @@ LABEL maintainer="h.solo@protonmail.ch"
 
 ENV ACTIVATION_CODE Code
 ENV LOCATION smart
-ARG APP=expressvpn_3.2.1.2-1_amd64.deb
+ARG APP=expressvpn_3.3.0.21-1_amd64.deb
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates wget expect iproute2 curl \
